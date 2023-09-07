@@ -1,12 +1,14 @@
 #include<stdio.h>
 /**
-* main entry of the program.
-*
-* return: 0 always
-*/
+ * main - Entry point of the program.
+ *
+ * Description: This program uses the 'puts' function to display a string.
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-/* my code have to be here */
+/*code here */
 puts("\"Programming is like building a multilingual puzzle");
+/* return value is 0 */
 return (0);
-}
