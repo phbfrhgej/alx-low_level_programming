@@ -9,13 +9,11 @@ int main(void)
 {
 int i;
 
-char alpha[26] = "abcdefghijklmnopqrstuvwxyz";
-char alph[26] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+char alpha[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
-for (i = 0; i < 26; i++)
+for (i = 0; i < 52; i++)
 {
 putchar(alpha[i]);
-putchar(alph[i]);
 }
 putchar('\n');
 return (0);
