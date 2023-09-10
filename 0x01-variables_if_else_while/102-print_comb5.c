@@ -6,33 +6,41 @@
  */
 int main(void)
 {
-int i;
-int j;
+/* my code is here*/
+int i, j, k, l;
 
-for (i = 0; i <= 99; i++)
+for (i = 0; i < 10; i++)
 {
-for (j = i; j <= 99; j++)
+for (j = 0; j < 10; j++)
 {
-/* Print the first two-digit number*/
-putchar('0' + (i / 10));
-putchar('0' + (i % 10));
+for (k = 0; k < 10; k++)
+{
+for (l = 0; l < 10; l++)
+{
+int num1 = i * 10 + j;
+int num2 = k * 10 + l;
 
-/* Print a space between the numbers*/
+if (num1 < num2)
+{
+putchar('0' + i);
+putchar('0' + j);
 putchar(' ');
-/* Print the second two-digit number*/
-putchar('0' + (j / 10));
-putchar('0' + (j % 10));
+putchar('0' + k);
+putchar('0' + l);
 
-/* Print ", " unless it's the last combination*/
-if (i != 99 || j != 98)
+if (i != 9 || j != 8 || k != 9 || l != 9)
 {
 putchar(',');
 putchar(' ');
 }
 }
 }
-
+}
+}
+}
 putchar('\n');
 return (0);
 }
+
+
 
