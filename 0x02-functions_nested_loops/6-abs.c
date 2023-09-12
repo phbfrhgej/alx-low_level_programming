@@ -6,12 +6,12 @@
 */
 int _abs(int i)
 {
-	if (i > 0)
+	if (i >=  0)
 	{
-		return (-i);
+		return (i);
 	}
 	else
 	{
-		return (i);
+		return (-i);
 	}
 }
