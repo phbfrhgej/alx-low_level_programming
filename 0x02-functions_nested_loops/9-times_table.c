@@ -13,8 +13,8 @@ for (j = 0; j <= 9; j++)
 product = i * j;
 if (product < 10)
 {
-_putchar('0' + (product % 10));
 _putchar(' ');
+_putchar('0' + (product % 10));
 }
 else
 {
