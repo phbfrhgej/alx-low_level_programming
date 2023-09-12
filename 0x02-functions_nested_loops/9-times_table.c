@@ -19,8 +19,11 @@ if (product < 10)
 {
 _putchar(' ');
 }
+else
+{
 }
-if (product < 10)
+}
+else if (product < 10)
 {
 _putchar('0' + product );
 }
